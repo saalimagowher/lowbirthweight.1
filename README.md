@@ -10,7 +10,9 @@ The data set contains the following variables:
  + ht :History of hypertension(yes,no) 
  + ui : Presence of uterine irritability(yes,no) 
  + ftv: Number of physician visits during 1st trimester(0-6) 
- + ptl : Number of previous premature labours(0-3) + bwt :Birth weight in grams
+ + ptl : Number of previous premature labours(0-3) 
+ +  bwt :Birth weight in grams
+
 We will first tidy our dataset by: 
  + categorizing our ordinal and categorical variables into factors 
  + converting lwt and bwt into the same unit of measurement(kgs)
