@@ -5,7 +5,7 @@ import streamlit as st
 import plotly.express as px
 from PIL import Image
 # data loading
-df=pd.read_csv('C:/Users/Hp/Downloads/birthweight.csv')
+df=pd.read_csv('birthweight.csv')
 # update variable
 df.lwt=df.lwt/2.205
 # subset to remove level
